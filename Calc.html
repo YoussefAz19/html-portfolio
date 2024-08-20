@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calcs.css">
+    
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="DisplayFunc('+')" class="operator">+</button>
+            <button onclick="DisplayFunc('7')">7</button>
+            <button onclick="DisplayFunc('8')">8</button>
+            <button onclick="DisplayFunc('9')">9</button>
+            <button onclick="DisplayFunc('-')" class="operator">-</button>
+            <button onclick="DisplayFunc('4')">4</button>
+            <button onclick="DisplayFunc('5')">5</button>
+            <button onclick="DisplayFunc('6')">6</button>
+            <button onclick="DisplayFunc('*')" class="operator">*</button>
+            <button onclick="DisplayFunc('1')">1</button>
+            <button onclick="DisplayFunc('2')">2</button>
+            <button onclick="DisplayFunc('3')">3</button>
+            <button onclick="DisplayFunc('/')" class="operator">/</button>
+            <button onclick="DisplayFunc('0')">0</button>
+            <button onclick="DisplayFunc('.')" >.</button>
+            <button onclick="calc()">=</button>
+            <button onclick="clears()" class="operator">C</button>
+            
+
+        </div>
+    </div>
+    <script src="calcjs.js"></script>
+
+    
+</body>
+</html>
